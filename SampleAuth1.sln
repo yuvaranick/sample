@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAuth1", "SampleAuth1\SampleAuth1.csproj", "{B4E51398-D7D2-4A36-A163-E1A9A4D54F26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlGenaration", "UrlGenaration\UrlGenaration.csproj", "{25259FDD-422C-4498-83B0-8C1AB3E1B984}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B4E51398-D7D2-4A36-A163-E1A9A4D54F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4E51398-D7D2-4A36-A163-E1A9A4D54F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4E51398-D7D2-4A36-A163-E1A9A4D54F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25259FDD-422C-4498-83B0-8C1AB3E1B984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25259FDD-422C-4498-83B0-8C1AB3E1B984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25259FDD-422C-4498-83B0-8C1AB3E1B984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25259FDD-422C-4498-83B0-8C1AB3E1B984}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
