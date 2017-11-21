@@ -11,6 +11,7 @@ namespace SampleAuth1.Controllers
         // GET: UserHome
         public ActionResult Index()
         {
+            //Console.WriteLine("");
             return View();
         }
     }
