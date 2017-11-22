@@ -4,7 +4,7 @@ using System.Text;
 
 namespace UrlGenaration
 {
-    class GenerateURL
+ public   class GenerateURL
     {
         public string BrowseNode { get; set; }
         public string ItemPage { get; set; }

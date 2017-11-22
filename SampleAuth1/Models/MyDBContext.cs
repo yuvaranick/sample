@@ -13,7 +13,7 @@ namespace SampleAuth1.Models
     public class MyDbContext : IdentityDbContext<ApplicationUser>
 
     {
-        public MyDbContext() : base("MyConnection", throwIfV1Schema: false)
+        public MyDbContext() : base("DefaultConnection", throwIfV1Schema: false)
         {
             Configuration.ProxyCreationEnabled = false;
             Configuration.LazyLoadingEnabled = false;

@@ -204,13 +204,16 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProductBrowseController.cs" />
     <Compile Include="Controllers\UserHomeController.cs" />
+    <Compile Include="DBService\DbClient.cs" />
+    <Compile Include="DBService\SeedMyDb.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\MyDBContext.cs" />
+    <Compile Include="Models\MyDbContext.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ScrapList.cs" />
     <Compile Include="Models\WishList.cs" />
@@ -250,7 +253,9 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
