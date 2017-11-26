@@ -13,7 +13,7 @@ namespace SampleAuth1.DBService
     public class SeedMyDb
     {
 
-        public void FillDB(SampleAuth1.Models.MyDbContext context)
+        public void FillDB(ApplicationDbContext context)
         {
             string[] Catgry = new string[] { "1000" };
 

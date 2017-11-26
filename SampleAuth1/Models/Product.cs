@@ -22,7 +22,6 @@ namespace SampleAuth1.Models
         public string OfferListingId { set; get; }
         public string OtherInfo { get; set; }
 
-        public ICollection<WishList> WishList { get; set; }
-        public ICollection<ScrapList> ScrapList { get; set; }
+
     }
 }

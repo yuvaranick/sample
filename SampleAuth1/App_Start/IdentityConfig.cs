@@ -11,6 +11,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using SampleAuth1.Models;
+using SampleAuth1.DBService;
 
 namespace SampleAuth1
 {
@@ -35,8 +36,7 @@ namespace SampleAuth1
     // Configure the application user manager used in this application. UserManager is defined in ASP.NET Identity and is used by the application.
     public class ApplicationUserManager : UserManager<ApplicationUser>
     {
-        public ApplicationUserManager(IUserStore<ApplicationUser> store)
-            : base(store)
+        public ApplicationUserManager(IUserStore<ApplicationUser> store)   : base(store)
         {
         }
 

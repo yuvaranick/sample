@@ -1,0 +1,9 @@
+C:\Users\yuva\source\repos\SampleAuth1\UrlGenaration\bin\Debug\netstandard2.0\UrlGenaration.deps.json
+C:\Users\yuva\source\repos\SampleAuth1\UrlGenaration\bin\Debug\netstandard2.0\UrlGenaration.dll
+C:\Users\yuva\source\repos\SampleAuth1\UrlGenaration\bin\Debug\netstandard2.0\UrlGenaration.pdb
+C:\Users\yuva\source\repos\SampleAuth1\UrlGenaration\obj\Debug\netstandard2.0\UrlGenaration.csproj.CoreCompileInputs.cache
+C:\Users\yuva\source\repos\SampleAuth1\UrlGenaration\obj\Debug\netstandard2.0\UrlGenaration.AssemblyInfoInputs.cache
+C:\Users\yuva\source\repos\SampleAuth1\UrlGenaration\obj\Debug\netstandard2.0\UrlGenaration.AssemblyInfo.cs
+C:\Users\yuva\source\repos\SampleAuth1\UrlGenaration\obj\Debug\netstandard2.0\UrlGenaration.dll
+C:\Users\yuva\source\repos\SampleAuth1\UrlGenaration\obj\Debug\netstandard2.0\UrlGenaration.pdb
+C:\Users\yuva\source\repos\SampleAuth1\UrlGenaration\obj\Debug\netstandard2.0\UrlGenaration.csprojResolveAssemblyReference.cache

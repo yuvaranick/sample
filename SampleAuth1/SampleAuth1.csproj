@@ -46,6 +46,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -202,8 +205,10 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductAdminController.cs" />
     <Compile Include="Controllers\ProductBrowseController.cs" />
     <Compile Include="Controllers\UserHomeController.cs" />
+    <Compile Include="DBService\ApplicationDbContext.cs" />
     <Compile Include="DBService\DbClient.cs" />
     <Compile Include="DBService\SeedMyDb.cs" />
     <Compile Include="Global.asax.cs">
@@ -213,7 +218,6 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\MyDbContext.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ScrapList.cs" />
     <Compile Include="Models\WishList.cs" />
@@ -223,16 +227,16 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\css\buymaybe.css" />
-    <Content Include="Content\css\components.css" />
-    <Content Include="Content\css\normalize.css" />
+    <Content Include="css\buymaybe.css" />
+    <Content Include="css\components.css" />
+    <Content Include="css\normalize.css" />
     <Content Include="images\buymaybe_-p-500.png" />
     <Content Include="images\buymaybe_.png" />
     <Content Include="images\circle.png" />
     <Content Include="images\circle_s.png" />
     <Content Include="images\product_image-p-500.png" />
     <Content Include="images\product_image.png" />
-    <Content Include="Content\js\buymaybe.js" />
+    <Content Include="js\buymaybe.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -242,6 +246,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="log4net.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -292,7 +297,11 @@
     <Content Include="Views\Shared\_Layout - Copy.cshtml" />
     <Content Include="Views\UserHome\Index.cshtml" />
     <Content Include="Views\ProductBrowse\Index.cshtml" />
-    <Content Include="Views\ProductBrowse\Favorites.cshtml" />
+    <Content Include="Views\ProductBrowse\WishList.cshtml" />
+    <Content Include="Views\ProductBrowse\Index - Copy.cshtml" />
+    <Content Include="Views\ProductAdmin\Index.cshtml" />
+    <Content Include="Views\ProductAdmin\ManageProducts.cshtml" />
+    <Content Include="Views\ProductAdmin\ManageCategory.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
